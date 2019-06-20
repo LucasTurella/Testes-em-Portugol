@@ -1,0 +1,24 @@
+Algoritmo "formula de bhaskara"
+// Descrição   : calcula o x1 e o x2
+// Autor(a)    : Lucas Turella
+// Data atual  : 19/06/2019
+Var
+// Seção de Declarações das variáveis 
+a,b,c,x1,x2,delta: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval ("resolvendo uma equação de segundo gral")
+escreval (" dados da equação são os seguintes...")
+escreval (" ax² + bx + c = 0")
+escreval ("digite o valor de a:")
+leia (a)
+escreval ("digite o valor de b:")
+leia (b)
+escreval ("digite o valor de c:")
+leia (c)
+delta <- (b^2) + 4*a*c
+escreval ("Delta é : ", delta)
+
+
+Fimalgoritmo
