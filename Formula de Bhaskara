@@ -19,6 +19,15 @@ escreval ("digite o valor de c:")
 leia (c)
 delta <- (b^2) + 4*a*c
 escreval ("Delta é : ", delta)
-
+se delta > 0 entao
+senão
+escreval(" O valor de Delta é negativo")
+fimalgoritmo
+fimse
+x1 <- (-b - (raizq(delta)))/(2*a)
+x2 <- (-b + (raizq(delta)))/(2*a)
+escreval ("x1 é igual a: ", x1)
+escreval ("x2 é igual a: ", x2)
 
 Fimalgoritmo
+
